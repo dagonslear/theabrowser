@@ -1,0 +1,90 @@
+:root {
+    --bg: #121212;
+    --fg: #f5f5f5;
+    --accent: #3aa0ff;
+    --card: #1e1e1e;
+    --hover: #333;
+    --shadow: rgba(0, 0, 0, 0.3);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    padding: 2rem 1rem;
+  }
+  
+  .logo {
+    width: 64px;
+    height: 64px;
+  }
+  
+  h1 {
+    margin: 0.5rem 0;
+    font-size: 2rem;
+  }
+  
+  .download {
+    margin: 2rem 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background: var(--accent);
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--shadow);
+    transition: background 0.2s;
+  }
+  
+  .btn:hover {
+    background: #2b89d4;
+  }
+  
+  .features {
+    background: var(--card);
+    padding: 2rem;
+    border-radius: 16px;
+    margin: 2rem auto;
+    max-width: 600px;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features li {
+    margin: 0.75rem 0;
+  }
+  
+  .screenshots {
+    margin: 2rem;
+  }
+  
+  .screenshots img {
+    max-width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px var(--shadow);
+  }
+  
+  footer {
+    margin: 2rem 0 1rem;
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
